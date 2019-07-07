@@ -1,2 +1,3 @@
 # Blog
-Protótipo Blog feito com React
+Protótipo Blog feito com:
+React/Scss/Html/Firebase/Router
