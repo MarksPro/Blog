@@ -1,0 +1,39 @@
+.post__section {
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  .post {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+    margin-bottom: 10px; 
+
+    .post__header {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+
+      .post__header__titulo {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .post__header__autor {
+        font-size: 13px;
+        padding-top: 5px;
+      }
+    } // End post__header
+
+    & > .post__image {
+      width: 100%;
+    } // End post__image
+
+    & > .post__footer {
+      margin-top: 10px;
+      padding: 20px;
+      word-wrap: break-word;
+    } // End post__footer
+  } // End post
+} // End post__section
