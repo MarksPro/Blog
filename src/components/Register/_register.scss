@@ -1,0 +1,45 @@
+.register__title {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.register {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto 0;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+
+  .register__label {
+    text-transform: uppercase;
+  }
+
+  .register__input {
+    margin-bottom: 15px;
+    height: 40px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    font-size: 14px;  
+  }
+
+  .register__button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background: rgba(221, 221, 221, 0);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s linear;
+    font-weight: bold;
+    font-size: 18px;
+
+    &:hover {
+      background: rgb(0, 0, 0);
+      color: #fff;
+    }
+  }
+
+}
