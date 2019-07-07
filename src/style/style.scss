@@ -1,0 +1,11 @@
+// Config global
+@import "./variable_mixins_placeholder";
+@import "./general";
+
+// Components
+@import '../components/Header/header';
+@import '../pages/Home/home';
+@import '../components/Login/login';
+@import '../components/Register/register';
+@import '../components/Dashboard/dashboard';
+@import '../components/New/newpost';
