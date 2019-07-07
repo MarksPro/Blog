@@ -1,0 +1,59 @@
+header {
+  margin-top: 20px;
+}
+.post__button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background: rgba(221, 221, 221, 0);
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all .2s linear;
+  font-weight: bold;
+  font-size: 18px;
+  width: 100%;
+
+  &:hover {
+    background: rgb(0, 0, 0);
+    color: #fff;
+  }
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 640px;
+  margin: 30px auto 0;
+  padding: 0 20px;
+
+  .post__alert {
+    text-align: center;
+    color: tomato;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .post__label {
+    text-transform: uppercase;
+    padding-left: 20px;
+  }
+
+  .post__input {
+    margin-bottom: 15px;
+    height: 40px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .post__input--area {
+    margin-bottom: 15px;
+    height: 200px;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 100%;
+  }
+}
