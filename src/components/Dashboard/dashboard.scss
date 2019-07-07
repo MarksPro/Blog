@@ -1,0 +1,48 @@
+.dashboard {
+  width: 100%;
+  max-width: 930px;
+  margin: 20px auto;
+  padding: 0 30px;
+
+  .dashboard__welcome {
+    word-wrap: break-word;
+  }
+
+  .dashboard__info {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    .dashboard__newpost {
+      padding: 8px;
+      font-size: 14px;
+      background-color: tomato;
+      color: #fff;
+      text-decoration: none;
+      margin-left: 10px;
+      word-wrap: none;
+      width: 100px;
+      text-align: center;
+    }
+  }
+
+  .dashboard__logout {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background: rgba(221, 221, 221, 0);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .2s linear;
+    font-weight: bold;
+    font-size: 18px;
+
+    &:hover {
+      background: rgb(0, 0, 0);
+      color: #fff;
+    }
+  }
+}
